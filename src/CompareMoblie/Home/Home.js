@@ -6,16 +6,34 @@ import image4 from "../../images/71J8tz0UeJL._SX679_-removebg-preview.png"
 import image5 from "../../images/71Vd1+ZnY-L._SX679_-removebg-preview.png"
 import image6 from "../../images/71to9xkUHrL._SX679_-removebg-preview.png"
 import "./Home.css"
+import { useDispatch, useSelector } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 function Home() {
+  const dispatch =useDispatch();
+  const data =useSelector((state)=>{
+    return state.compare
+  })
+  // function handleCompare (e){
+  //   e.preventDefault()
+    
+
+  // }
+  function exitIncart(){
+    // let exit=false;
+    // if()
+  }
   return (
    <>
    <section className='sectionHome'>
       <div className='mobileDetails'>
-        <img src={image2}></img>
+        <Link to="/image"><img src={image2}></img></Link>
         <h1>Samsung</h1>
         <h2></h2>
-        <a href=''>Add To Compare</a>
+        {/* <a href=''>Add To Compare</a> */}
+        {/* {
+          (exitIncart())?<a href=''>Added To Compare</a>:<a onClick={handleCompare()} href=''>Add To Comapare</a>
+        } */}
       </div>
       <div className='mobileDetails'>
         <img src={image4}></img>
