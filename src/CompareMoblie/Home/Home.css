@@ -31,7 +31,7 @@
 .mobileDetails h1{
     margin-bottom: 20px;
 }
-.mobileDetails a{
+.mobileDetails .anchore{
     text-decoration: none;
     color:black;
     padding: 7px 20px;

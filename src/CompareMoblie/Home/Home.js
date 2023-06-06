@@ -30,40 +30,40 @@ function Home() {
         <Link to="/image"><img src={image2}></img></Link>
         <h1>Samsung</h1>
         <h2></h2>
-        {/* <a href=''>Add To Compare</a> */}
+        <a className='anchore' href=''>Add To Compare</a>
         {/* {
           (exitIncart())?<a href=''>Added To Compare</a>:<a onClick={handleCompare()} href=''>Add To Comapare</a>
         } */}
       </div>
       <div className='mobileDetails'>
-        <img src={image4}></img>
+      <Link to="/image"><img src={image4}></img></Link>
         <h1>Samsung</h1>
         <h2></h2>
-        <a href=''>Add To Compare</a>
+        <a className='anchore' href=''>Add To Compare</a>
       </div>
       <div className='mobileDetails'>
-        <img src={image5}></img>
+      <Link to="/image"><img src={image5}></img></Link>
         <h1>Samsung</h1>
         <h2></h2>
-        <a href=''>Add To Compare</a>
+        <a className='anchore' href=''>Add To Compare</a>
       </div>
       <div className='mobileDetails'>
-        <img src={image1}></img>
+      <Link to="/image"><img src={image1}></img></Link>
         <h1>Apple</h1>
         <h2></h2>
-        <a href=''>Add To Compare</a>
+        <a className='anchore' href=''>Add To Compare</a>
       </div>
       <div className='mobileDetails'>
-        <img src={image3}></img>
+      <Link to="/image"><img src={image3}></img></Link>
         <h1>Apple</h1>
         <h2></h2>
-        <a href=''>Add To Compare</a>
+        <a className='anchore' href=''>Add To Compare</a>
       </div>
       <div className='mobileDetails'>
-        <img src={image6}></img>
+      <Link to="/image"><img src={image6}></img></Link>
         <h1>Google</h1>
         <h2></h2>
-        <a href=''>Add To Compare</a>
+        <a className='anchore' href=''>Add To Compare</a>
       </div>
    </section>
    </>
